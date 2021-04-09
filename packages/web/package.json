@@ -1,0 +1,32 @@
+{
+  "name": "@blintsoft-ui/web",
+  "version": "1.0.0",
+  "description": "Ui Web support",
+  "author": "Juliano Ramos <490meister@gmail.com>",  
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "typings/web/lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blintsoft/blintsoft-ui.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/blintsoft/blintsoft-ui/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }  
+}
