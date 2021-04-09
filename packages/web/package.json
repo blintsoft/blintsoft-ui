@@ -2,7 +2,8 @@
   "name": "@blintsoft-ui/web",
   "version": "1.0.0",
   "description": "Ui Web support",
-  "author": "Juliano Ramos <490meister@gmail.com>",  
+  "author": "Juliano Ramos <490meister@gmail.com>",
+  "homepage": "https://github.com/blintsoft/blintsoft-ui#readme",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -28,5 +29,9 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
-  }  
+  },
+  "dependencies": {
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6"
+  }
 }
