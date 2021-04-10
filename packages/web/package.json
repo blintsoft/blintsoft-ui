@@ -9,8 +9,7 @@
   "module": "dist/index.es.js",
   "types": "typings/web/lib/index.d.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "dist",
@@ -32,6 +31,8 @@
   },
   "dependencies": {
     "@unform/core": "^2.1.6",
-    "@unform/web": "^2.1.6"
-  }
+    "@unform/web": "^2.1.6",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {}
 }
