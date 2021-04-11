@@ -19,7 +19,10 @@
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "paths": {
+      "@blintsoft-ui/core": ["packages/core/lib"]
+    }
   },
   "include": ["packages/**/*"],
   "exclude": ["node_modules", "dist"]
