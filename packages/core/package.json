@@ -1,6 +1,6 @@
 {
   "name": "@blintsoft-ui/core",
-  "version": "1.0.4",
+  "version": "1.0.5-next.0",
   "description": "Ui core package",
   "author": "Juliano Ramos <490meister@gmail.com>",
   "homepage": "https://github.com/blintsoft/blintsoft-ui#readme",
@@ -28,7 +28,6 @@
   "dependencies": {
     "dot-object": "^2.1.4"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "react": ">=16.8.0"
   }
