@@ -39,7 +39,8 @@
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
-    ]
+    ],
+    "no-use-before-define": "off"
   },
   "settings": {
     "react": {

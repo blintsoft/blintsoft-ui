@@ -1,0 +1,35 @@
+{
+  "name": "@blintsoft-ui/core",
+  "version": "1.0.4",
+  "description": "Ui core package",
+  "author": "Juliano Ramos <490meister@gmail.com>",
+  "homepage": "https://github.com/blintsoft/blintsoft-ui#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "typings/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blintsoft/blintsoft-ui.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/blintsoft/blintsoft-ui/issues"
+  },
+  "dependencies": {
+    "dot-object": "^2.1.4"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
