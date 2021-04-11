@@ -83,6 +83,8 @@ const Theme: React.FC<IThemeProps> = ({ theme = DEFAULT_THEME, children }) => {
     }
   }, [theme])
 
+  console.log(data)
+
   return (
     <ThemeContext.Provider value={{ theme: data }}>
       {children}
